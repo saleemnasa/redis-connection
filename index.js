@@ -13,7 +13,7 @@ if (process.env.REDISCLOUD_URL) {
 else {
   rc =  {
     port: 6379,
-    host: '127.0.0.1'
+    host: '104.41.138.3'
     // auth: '' no auth on localhost see: https://git.io/vH3TN
   }
 }
